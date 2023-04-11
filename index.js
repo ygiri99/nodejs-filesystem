@@ -3,6 +3,7 @@ const fs = require('fs');
 
 const app = express();
 app.use(express.json());
+const port = process.env.PORT||4002;
 
 //Retrieveing all files in folder File
 app.get('/',(req,res) => {
@@ -48,7 +49,7 @@ let seedatetime =String( seedatetime1);
 
 })
 
-app.listen(4002,() => {
+app.listen(port,() => {
     console.log("app to create file started"); 
     console.log(Date.now(),new Date());
 })
