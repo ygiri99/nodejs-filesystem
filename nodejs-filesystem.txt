@@ -1,0 +1,5 @@
+http://localhost:4002
+
+
+For both get and post use JSON
+{"folderName":"File-folder"}
