@@ -1,5 +1,5 @@
-http://localhost:4002
+https://file-nodejs-ygiri.onrender.com
 
 
-For both get and post use JSON
+For post use JSON
 {"folderName":"File-folder"}
